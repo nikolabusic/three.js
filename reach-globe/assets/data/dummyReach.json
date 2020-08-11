@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "name": "User",
+      "lat": 59.651901245117,
+      "lng": 17.918600082397,
+      "img": "./assets/img/user-demo.jpg",
+      "type": "audit"
+    },
+    {
+      "name": "CMB Campaign",
+      "lat": 7.180759906768799,
+      "lng": 79.88410186767578,
+      "img": "./assets/img/campaign1.jpg",
+      "type": "campaign",
+      "evidence": [
+        "./assets/img/evidence1.jpg"
+      ]
+    },
+    {
+      "name": "HND Cause",
+      "lat": 35.552299,
+      "lng": 139.779999,
+      "img": "./assets/img/cause1.jpg",
+      "type": "cause",
+      "evidence": [
+        "./assets/img/evidence2.jpg",
+        "./assets/img/evidence3.jpg",
+        "./assets/img/evidence4.jpg"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "love": true,
+      "xcv": 10,
+      "source": 0,
+      "target": 1
+    },
+    {
+      "dona": "$300",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "evid": 0,
+      "source": 1,
+      "target": 2
+    }
+  ]
+}

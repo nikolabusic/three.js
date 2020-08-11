@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "name": "User",
+      "lat": 59.651901245117,
+      "lng": 17.918600082397,
+      "img": "./assets/img/user-demo.jpg",
+      "type": "audit"
+    },
+    {
+      "name": "CMB Campaign",
+      "lat": 7.180759906768799,
+      "lng": 79.88410186767578,
+      "img": "./assets/img/campaign1.jpg",
+      "type": "campaign"
+    },
+    {
+      "name": "FCO Cause",
+      "lat": 41.8002778,
+      "lng": 12.2388889,
+      "img": "./assets/img/cause3.jpg",
+      "type": "cause"
+    },
+    {
+      "name": "HKG Cause",
+      "lat": 22.3089008331,
+      "lng": 113.915000916,
+      "img": "./assets/img/cause2.jpg",
+      "type": "cause"
+    },
+    {
+      "name": "HND Cause",
+      "lat": 35.552299,
+      "lng": 139.779999,
+      "img": "./assets/img/cause1.jpg",
+      "type": "cause"
+    }
+  ],
+  "links": [
+    {
+      "love": true,
+      "xcv": 10,
+      "source": 0,
+      "target": 1
+    }
+  ]
+}
